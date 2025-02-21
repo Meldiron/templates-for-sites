@@ -6,4 +6,11 @@ export default ({
     colorMode: {
         classSuffix: '',
     },
+    app: {
+        head: {
+          bodyAttrs: {
+            class: 'bg-white dark:bg-neutral-900',
+          },
+        },
+      },
 })
